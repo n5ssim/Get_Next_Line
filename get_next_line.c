@@ -28,7 +28,7 @@ static char	*_extract_line(char *storage)
 	i = 0;
 	while (storage[i] && storage[i] != '\n')
 	{
-		line [i] = storage[i];
+		line[i] = storage[i];
 		i++;
 	}
 	if (storage[i] == '\n')
